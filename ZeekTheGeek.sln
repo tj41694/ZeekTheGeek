@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeekTheGeek", "ZeekTheGeek.csproj", "{A6BEF1B2-1479-1870-70E9-0D759BD3CEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeekTheGeek.Plugins", "ZeekTheGeek.Plugins.csproj", "{5066BE3B-BB49-73DE-C7B7-F95C4E2CA989}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6BEF1B2-1479-1870-70E9-0D759BD3CEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BEF1B2-1479-1870-70E9-0D759BD3CEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BEF1B2-1479-1870-70E9-0D759BD3CEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BEF1B2-1479-1870-70E9-0D759BD3CEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5066BE3B-BB49-73DE-C7B7-F95C4E2CA989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5066BE3B-BB49-73DE-C7B7-F95C4E2CA989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5066BE3B-BB49-73DE-C7B7-F95C4E2CA989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5066BE3B-BB49-73DE-C7B7-F95C4E2CA989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
