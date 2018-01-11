@@ -4,8 +4,9 @@
 >关于：打算学习Unity3D。记得食人花是小学微机课电脑上装的一款游戏，非常适合练习，于是打算用Unity自己实现一下。
 
 	游戏除了炸弹爆炸的prefb，蘑菇的粒子效果贴图，其他都是自己实现的，包括所有的模型、动作、scripts。
+* 文件 [Zeek The Geek（完成）.rar](https://github.com/tj41694/ZeekTheGeek/blob/master/Zeek%20The%20Geek%EF%BC%88%E5%AE%8C%E6%88%90%EF%BC%89.rar)是编译好的，解压后win7直接打开玩。
 
-##遇到的坑
+##遇到的坑##
 * player的移动
 	* 移动前先用Physics.Linecast()函数判断能都移动，所以刚开始必须设置好layermask。
 	* 为了实现平滑的单位移动，创建了一个Coroutine协程函数Smoothmove()，测试有问题，发现按下移动键**触发了多个协程函数Smoothmove()**。总结：应该设置一个移动中标记，如果是在移动中就不触发移动指令。
